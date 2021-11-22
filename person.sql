@@ -1,14 +1,13 @@
+
 CREATE TABLE person ( person_id SERIAL PRIMARY KEY, name VARCHAR(200), age INTEGER, height INTEGER, city VARCHAR(200), favorite_color VARCHAR(200));
 
 
-INSERT INTO person ( name, age, height, city, favorite_color ) VALUES ( 'Quy Nguyen', 21, 169, 'Garland', 'Blue' );
-
-INSERT INTO person ( name, age, height, city, favorite_color ) VALUES ( 'Ken Nguyen', 18, 155, 'Garland', 'red' );
-
-INSERT INTO person ( name, age, height, city, favorite_color ) VALUES ( 'Nam Ho', 21, 189, 'Garland', 'black' );
-
-INSERT INTO person ( name, age, height, city, favorite_color ) VALUES ( 'Huy Dang', 22, 165, 'Garland', 'yellow' );
-NSERT INTO person ( name, age, height, city, favorite_color ) VALUES ( 'Nathan', 25, 169, 'Garland', 'green' );
+INSERT INTO person ( name, age, height, city, favorite_color ) VALUES 
+( 'Quy Nguyen', 21, 169, 'Garland', 'Blue' ),
+( 'Ken Nguyen', 18, 155, 'Garland', 'red' ),
+( 'Nam Ho', 21, 189, 'Garland', 'black' ),
+( 'Huy Dang', 22, 165, 'Garland', 'yellow' ),
+( 'Nathan', 25, 169, 'Garland', 'green' );
 
 SELECT * FROM person ORDER BY height DESC;
 

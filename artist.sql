@@ -1,10 +1,5 @@
-INSERT INTO artist ( name ) VALUES ( 'son tung');
-
-INSERT INTO artist ( name ) VALUES ( 'jack');
-
-INSERT INTO artist ( name ) VALUES ( 'le roi');
-
-
+INSERT INTO artist ( name ) VALUES
+( 'son tung'), ( 'jack'), ( 'le roi');
 
 SELECT * FROM artist ORDER BY name DESC LIMIT 10;
 
